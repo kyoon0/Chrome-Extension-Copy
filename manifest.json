@@ -14,10 +14,11 @@
 			"matches": ["*://*.stackoverflow.com/*"],
 			"js": ["scripts/main.js"]
 		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": ["/images/clipboard.svg"],
+			"matches": ["*://*.stackoverflow.com/*"]
+		}
 	]
-	// "web_accessible_resources": [
-	// 	{
-	// 		"resources": ["./images/clipboard.svg"]
-	// 	}
-	// ]
 }
